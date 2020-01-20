@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tbuonomo.andrui:viewpagerdotsindicator:2.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ed3ab9f419a10422a1592c0546c8888/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ed3ab9f419a10422a1592c0546c8888/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tbuonomo.andrui/viewpagerdotsindicator/2.0.3/4ce7454bbdf84c2e557907a19147b681bd0b31ed/viewpagerdotsindicator-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#222222</color>
+    <color name="splash">#c7353e</color>
+
+    <color name="colorPrimary">#00000000</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#c7353e</color>
+
+    <color name="one">#ffe5c4</color>
+    <color name="two">#ffc1a8</color>
+    <color name="three">#f67e7d</color>
+
+
+
+
+</resources>

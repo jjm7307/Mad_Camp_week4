@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.madcamp.week4"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:27:3-52
+19-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:27:17-49
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:28:3-65
+21-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:28:20-62
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:29:3-77
+22-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:29:20-74
+23
+24    <uses-feature
+24-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:30:3-89
+25        android:name="android.hardware.location.gps"
+25-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:30:17-61
+26        android:required="false" />
+26-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:30:62-86
+27    <uses-feature
+27-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:31:3-85
+28        android:name="android.hardware.location"
+28-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:31:17-57
+29        android:required="false" />
+29-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:31:58-82
+30
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:32:3-63
+31-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:32:20-60
+32
+33    <uses-feature
+33-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:33:3-83
+34        android:name="android.hardware.camera"
+34-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:33:17-55
+35        android:required="true" />
+35-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:33:56-80
+36    <uses-feature
+36-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:34:3-93
+37        android:name="android.hardware.camera.autofocus"
+37-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:34:17-65
+38        android:required="false" />
+38-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:34:66-90
+39    <uses-feature
+39-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:35:3-89
+40        android:name="android.hardware.camera.front"
+40-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:35:17-61
+41        android:required="false" />
+41-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:35:62-86
+42    <uses-feature
+42-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:36:3-88
+43        android:name="android.hardware.touchscreen"
+43-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:36:17-60
+44        android:required="false" />
+44-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:36:61-85
+45    <uses-feature
+45-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:37:3-99
+46        android:name="android.hardware.touchscreen.multitouch"
+46-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:37:17-71
+47        android:required="false" />
+47-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:37:72-96
+48    <uses-feature
+48-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:38:3-108
+49        android:name="android.hardware.touchscreen.multitouch.distinct"
+49-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:38:17-80
+50        android:required="false" />
+50-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:38:81-105
+51
+52    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+52-->[:VuforiaWrapper:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\182443777e328eb89395353a5fc7ea90\VuforiaWrapper\AndroidManifest.xml:11:5-79
+52-->[:VuforiaWrapper:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\182443777e328eb89395353a5fc7ea90\VuforiaWrapper\AndroidManifest.xml:11:22-76
+53    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+53-->[:VuforiaWrapper:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\182443777e328eb89395353a5fc7ea90\VuforiaWrapper\AndroidManifest.xml:12:5-81
+53-->[:VuforiaWrapper:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\182443777e328eb89395353a5fc7ea90\VuforiaWrapper\AndroidManifest.xml:12:22-78
+54    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+55    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+56
+57    <application
+57-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:4:3-26:17
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.1.0] C:\Users\q\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+59        android:debuggable="true"
+59-->[:VuforiaWrapper:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\182443777e328eb89395353a5fc7ea90\VuforiaWrapper\AndroidManifest.xml:14:18-44
+60        android:icon="@mipmap/app_icon"
+60-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:6:7-38
+61        android:label="@string/app_name"
+61-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:7:7-39
+62        android:roundIcon="@mipmap/app_icon_round"
+62-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:8:7-49
+63        android:testOnly="true"
+64        android:theme="@style/AppTheme" >
+64-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:5:7-38
+65        <activity android:name="com.madcamp.week4.UnityPlayerActivity" />
+65-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:9:5-62
+65-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:9:15-50
+66        <activity
+66-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:10:5-13:16
+67            android:name="com.madcamp.week4.MainActivity"
+67-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:11:9-37
+68            android:theme="@style/Theme.AppCompat.NoActionBar" >
+68-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:12:9-59
+69        </activity>
+70        <activity
+70-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:14:5-21:16
+71            android:name="com.madcamp.week4.SplashActivity"
+71-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:15:9-39
+72            android:theme="@style/AppTheme.NoActionBar" >
+72-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:16:9-52
+73            <intent-filter>
+73-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:17:7-20:23
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:18:9-61
+74-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:18:17-58
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:19:9-69
+76-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:19:19-66
+77            </intent-filter>
+78        </activity>
+79
+80        <meta-data
+80-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:22:5-101
+81            android:name="unity.build-id"
+81-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:22:16-45
+82            android:value="7a9745bf-6430-4d7b-822f-2c4c63098f75" />
+82-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:22:46-98
+83        <meta-data
+83-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:23:5-69
+84            android:name="unity.splash-mode"
+84-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:23:16-48
+85            android:value="0" />
+85-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:23:49-66
+86        <meta-data
+86-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:24:5-74
+87            android:name="unity.splash-enable"
+87-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:24:16-50
+88            android:value="True" />
+88-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:24:51-71
+89        <meta-data
+89-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:25:5-77
+90            android:name="com.google.ar.core"
+90-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:25:16-49
+91            android:value="optional" />
+91-->C:\Users\q\Desktop\madcamp_week4\test\src\main\AndroidManifest.xml:25:50-74
+92        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+93        <meta-data
+93-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:33:9-35:41
+94            android:name="com.google.ar.core.min_apk_version"
+94-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:34:13-62
+95            android:value="190120000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+95-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:35:13-38
+96        <activity
+96-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:37:9-43:80
+97            android:name="com.google.ar.core.InstallActivity"
+97-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:38:13-62
+98            android:configChanges="keyboardHidden|orientation|screenSize"
+98-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:39:13-74
+99            android:excludeFromRecents="true"
+99-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:40:13-46
+100            android:exported="false"
+100-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:41:13-37
+101            android:launchMode="singleTop"
+101-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:42:13-43
+102            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+102-->[:core-1.7.0:] C:\Users\q\.gradle\caches\transforms-2\files-2.1\a53e7e1b5712e8e2c7b9c4b9ff1b4d76\core-1.7.0\AndroidManifest.xml:43:13-77
+103
+104        <provider
+104-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\q\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+105            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\q\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+106            android:authorities="com.madcamp.week4.lifecycle-process"
+106-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\q\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+107            android:exported="false"
+107-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\q\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+108            android:multiprocess="true" />
+108-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\q\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+109    </application>
+110
+111</manifest>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_coins"
+        android:layout_marginVertical="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.8"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="10dp">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:layout_gravity = "center"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                card:cardBackgroundColor="@color/one"
+                card:cardCornerRadius="15dp"
+                card:cardUseCompatPadding="false"
+                card:cardElevation="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@+id/insert"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_add_list" />
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:id="@+id/refresh_coin"
+            android:layout_width="0dp"
+            android:layout_marginLeft="30dp"
+            android:paddingHorizontal="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity = "center"
+            android:layout_weight="0.85"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Total : "
+                android:layout_gravity = "center_vertical"
+                android:layout_weight="0.5"
+                android:textColor="#555555"
+                ></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/total_coins"
+                android:textSize="40sp"
+                android:text="0"
+                android:gravity = "center|right"
+                android:layout_weight="0.5"
+                android:textStyle="bold"
+                android:textColor="#555555"
+                ></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
