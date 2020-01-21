@@ -22,6 +22,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <uses-feature
         android:name="android.hardware.location.gps"
@@ -55,10 +56,9 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -73,7 +73,7 @@
         </activity>
         <activity
             android:name="com.madcamp.week4.SplashActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -84,12 +84,6 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDnCJGZ8hucrL1qMcD02sNN1V-ipc5K194" />
-
-        <activity
-            android:name="com.madcamp.week4.MapActivity"
-            android:label="MapActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-
         <meta-data
             android:name="unity.build-id"
             android:value="7a9745bf-6430-4d7b-822f-2c4c63098f75" />
@@ -112,18 +106,7 @@
             android:excludeFromRecents="true"
             android:exported="false"
             android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-        <activity
-            android:name="com.karumi.dexter.DexterActivity"
-            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Autocomplete -->
-        <activity
-            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-            android:exported="false"
-            android:hardwareAccelerated="true"
-            android:label="@string/places_autocomplete_label"
-            android:theme="@style/PlacesAutocompleteThemeOverlay"
-            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
-        </activity> <!-- Needs to be explicitly declared on P+ -->
+            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" /> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />

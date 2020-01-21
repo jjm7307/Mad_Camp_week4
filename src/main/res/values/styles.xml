@@ -14,12 +14,15 @@
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-
+        <item name="colorPrimary">#ffc1a8</item>
+        <item name="colorPrimaryDark">#ffc1a8</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">#ffc1a8</item>
+        <item name="colorPrimaryDark">#ffc1a8</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <!--    상태바 없애기-->
@@ -27,10 +30,14 @@
     </style>
 
     <style name = "Theme.TransparentBackground" parent="android:Theme.Dialog">
+        <item name="colorPrimary">#ffc1a8</item>
+        <item name="colorPrimaryDark">#ffc1a8</item>
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#ffc1a8</item>
+        <item name="colorPrimaryDark">#ffc1a8</item>
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
 

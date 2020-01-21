@@ -12,14 +12,17 @@ import androidx.core.app.ActivityCompat;
 public class SplashActivity extends AppCompatActivity {
     String[] PERMISSIONS = {
             //List for get permission
+            Manifest.permission.ACCESS_FINE_LOCATION,
+            Manifest.permission.ACCESS_COARSE_LOCATION,
+            Manifest.permission.INTERNET
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         askPermission();
         while(!hasPermissions(this,PERMISSIONS)){}
+
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();

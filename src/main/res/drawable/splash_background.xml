@@ -5,8 +5,9 @@
 
 <item
     android:width="400dp"
-    android:height="300dp"
-    android:gravity="center">
+    android:height="515dp"
+    android:gravity="center"
+    android:scaleType="fitCenter">
     <bitmap android:src="@drawable/icon_splash"
         android:gravity="fill"/>
 </item>

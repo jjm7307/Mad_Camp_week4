@@ -34,7 +34,7 @@
                 android:layout_gravity="center"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                card:cardBackgroundColor="@color/one"
+                card:cardBackgroundColor="@color/two"
                 card:cardCornerRadius="15dp"
                 card:cardUseCompatPadding="false"
                 card:cardElevation="0dp"

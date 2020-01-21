@@ -18,10 +18,6 @@ import com.madcamp.week4.fragments.FragmentMap;
 import com.madcamp.week4.fragments.fragments_test;
 
 public class MainActivity extends AppCompatActivity {
-    String[] PERMISSIONS = {
-            //List for get permission
-            android.Manifest.permission.ACCESS_FINE_LOCATION
-    };
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -31,10 +27,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        askPermission();
-        while(!hasPermissions(this,PERMISSIONS)){}
-
 
         setContentView(R.layout.activity_main);
 
@@ -80,8 +72,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 1:
                 viewPager.setCurrentItem(1);
-                Intent intent = new Intent(MainActivity.this, MapActivity.class);
-                startActivity(intent);
                 break;
             case 2:
                 viewPager.setCurrentItem(2);
@@ -89,22 +79,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent2);
                 break;
         }
-    }
-    private void askPermission() {
-        int PERMISSION_ALL = 1;
-
-        if (!hasPermissions(this, PERMISSIONS)) {
-            ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
-        }
-    }
-    public static boolean hasPermissions(Context context, String... permissions) {
-        if (context != null && permissions != null) {
-            for (String permission : permissions) {
-                if (ActivityCompat.checkSelfPermission(context, permission) != PackageManager.PERMISSION_GRANTED) {
-                    return false;
-                }
-            }
-        }
-        return true;
     }
 }
